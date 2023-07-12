@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block title %}Login{% endblock %}
+{% block content %}
+{% from "_formhelpers.html" import render_field %}
+<div class="container-fluid d-flex flex-column align-items-left justify-content-center">
+    <div class="h1 text-centre">Welcome to SIMPLE BANK</div>
+    <div class="my-6">
+        <img height="200" src = "https://thumbs.dreamstime.com/b/banking-conceptual-logo-unique-vector-symbol-banking-system-t-global-financial-circulation-money-88352705.jpg" alt = "" >
+    </div>
+    
+    <div class="h2 text-Left">LOGIN</div>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{render_field(form.email)}}
+        {{render_field(form.password)}}
+        <div class=text-Left>{{form.submit(class="btn btn-primary mt-2 ")}}</div>
+        
+    </form>
+</div>
+{% endblock %}
