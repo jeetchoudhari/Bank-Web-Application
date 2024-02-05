@@ -1,4 +1,20 @@
 # Bank-Web-Application
+It is a web-based banking application developed using Python, Flask, and Jinja, this robust application boasts a suite of key functionalities, ensuring a secure, efficient, and user-friendly banking experience.
+
+Applications:
+* Online Banking Services: Enable users to perform a wide range of banking activities from the comfort of their homes, including secure transactions, account management, and transaction tracking.
+* Financial Inclusion: Extend banking services to individuals who may have limited access to physical branches, fostering financial inclusion and reaching a broader user base.
+* Educational Tools: Serve as a practical educational tool for learning about secure coding practices, web development, and database management within a real-world application context.
+
+**Technologies Used**:
+* Python, Flask, Jinja: Leveraged for backend development and dynamic content rendering, ensuring a responsive and seamless user experience.
+* MySQL: Employed for robust database management, storing user profiles, transaction records, and other critical data securely.
+* Heroku Cloud Platform: Chosen for deployment to guarantee scalable and accessible web banking services to users.
+
+**Impact**:
+This web application not only provides a secure and user-friendly online banking experience but also contributes to the ongoing transformation of the financial services landscape. By harnessing technology and adhering to industry best practices, this application serves as a benchmark for secure web development. It exemplifies the synergy of software development and financial services in creating a reliable and accessible digital banking solution.
+
+Following are the screenshots of the applicatin:
 <table><tr><td> IS601 Milestone 3 Bank Project</td></tr>
 
 <table><tr><td> <em>Deliverable 1: </em> User will be able to transfer between their accounts </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="https://user-images.githubusercontent.com/54863474/211707773-e6aef7cb-d5b2-4053-bbb1-b09fc609041e.png"></td></tr>
